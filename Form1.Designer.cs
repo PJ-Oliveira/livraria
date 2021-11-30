@@ -52,7 +52,7 @@
             this.Titulo.AutoSize = true;
             this.Titulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Titulo.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Titulo.Location = new System.Drawing.Point(590, 109);
+            this.Titulo.Location = new System.Drawing.Point(590, 100);
             this.Titulo.Name = "Titulo";
             this.Titulo.Size = new System.Drawing.Size(46, 16);
             this.Titulo.TabIndex = 0;
@@ -63,7 +63,7 @@
             this.Tema.AutoSize = true;
             this.Tema.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tema.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Tema.Location = new System.Drawing.Point(590, 149);
+            this.Tema.Location = new System.Drawing.Point(590, 126);
             this.Tema.Name = "Tema";
             this.Tema.Size = new System.Drawing.Size(47, 16);
             this.Tema.TabIndex = 1;
@@ -74,7 +74,7 @@
             this.Autor.AutoSize = true;
             this.Autor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Autor.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Autor.Location = new System.Drawing.Point(593, 184);
+            this.Autor.Location = new System.Drawing.Point(593, 152);
             this.Autor.Name = "Autor";
             this.Autor.Size = new System.Drawing.Size(43, 16);
             this.Autor.TabIndex = 2;
@@ -82,7 +82,7 @@
             // 
             // txtTitulo
             // 
-            this.txtTitulo.Location = new System.Drawing.Point(652, 109);
+            this.txtTitulo.Location = new System.Drawing.Point(652, 96);
             this.txtTitulo.Name = "txtTitulo";
             this.txtTitulo.Size = new System.Drawing.Size(100, 20);
             this.txtTitulo.TabIndex = 3;
@@ -90,7 +90,7 @@
             // 
             // txtTema
             // 
-            this.txtTema.Location = new System.Drawing.Point(652, 145);
+            this.txtTema.Location = new System.Drawing.Point(652, 122);
             this.txtTema.Name = "txtTema";
             this.txtTema.Size = new System.Drawing.Size(100, 20);
             this.txtTema.TabIndex = 4;
@@ -98,7 +98,7 @@
             // 
             // txtAutor
             // 
-            this.txtAutor.Location = new System.Drawing.Point(652, 184);
+            this.txtAutor.Location = new System.Drawing.Point(652, 148);
             this.txtAutor.Name = "txtAutor";
             this.txtAutor.Size = new System.Drawing.Size(100, 20);
             this.txtAutor.TabIndex = 5;
@@ -108,11 +108,11 @@
             // 
             this.Livraria.AutoSize = true;
             this.Livraria.BackColor = System.Drawing.Color.Transparent;
-            this.Livraria.Font = new System.Drawing.Font("Caladea", 47.99999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Livraria.Font = new System.Drawing.Font("Caladea", 47.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Livraria.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Livraria.Location = new System.Drawing.Point(203, -4);
+            this.Livraria.Location = new System.Drawing.Point(196, -4);
             this.Livraria.Name = "Livraria";
-            this.Livraria.Size = new System.Drawing.Size(247, 75);
+            this.Livraria.Size = new System.Drawing.Size(255, 75);
             this.Livraria.TabIndex = 6;
             this.Livraria.Text = "Livraria";
             this.Livraria.Click += new System.EventHandler(this.label4_Click);
@@ -121,7 +121,7 @@
             // 
             this.Novo.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.Novo.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.Novo.Location = new System.Drawing.Point(652, 225);
+            this.Novo.Location = new System.Drawing.Point(652, 186);
             this.Novo.Name = "Novo";
             this.Novo.Size = new System.Drawing.Size(100, 23);
             this.Novo.TabIndex = 7;
@@ -132,7 +132,7 @@
             // Editar
             // 
             this.Editar.Cursor = System.Windows.Forms.Cursors.AppStarting;
-            this.Editar.Location = new System.Drawing.Point(652, 254);
+            this.Editar.Location = new System.Drawing.Point(652, 231);
             this.Editar.Name = "Editar";
             this.Editar.Size = new System.Drawing.Size(100, 23);
             this.Editar.TabIndex = 8;
@@ -154,7 +154,7 @@
             // Exibir
             // 
             this.Exibir.Cursor = System.Windows.Forms.Cursors.AppStarting;
-            this.Exibir.Location = new System.Drawing.Point(652, 341);
+            this.Exibir.Location = new System.Drawing.Point(652, 363);
             this.Exibir.Name = "Exibir";
             this.Exibir.Size = new System.Drawing.Size(100, 23);
             this.Exibir.TabIndex = 11;
@@ -177,7 +177,7 @@
             this.ID.AutoSize = true;
             this.ID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ID.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.ID.Location = new System.Drawing.Point(610, 74);
+            this.ID.Location = new System.Drawing.Point(614, 74);
             this.ID.Name = "ID";
             this.ID.Size = new System.Drawing.Size(22, 16);
             this.ID.TabIndex = 13;
@@ -194,7 +194,7 @@
             // Consulta
             // 
             this.Consulta.Cursor = System.Windows.Forms.Cursors.AppStarting;
-            this.Consulta.Location = new System.Drawing.Point(652, 312);
+            this.Consulta.Location = new System.Drawing.Point(652, 323);
             this.Consulta.Name = "Consulta";
             this.Consulta.Size = new System.Drawing.Size(100, 23);
             this.Consulta.TabIndex = 15;
@@ -208,6 +208,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Desktop;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Consulta);
             this.Controls.Add(this.txtID);
@@ -226,6 +227,7 @@
             this.Controls.Add(this.Titulo);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
